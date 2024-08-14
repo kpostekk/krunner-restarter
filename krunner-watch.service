@@ -1,0 +1,9 @@
+[Unit]
+Description=KRunner Watchdog
+
+[Service]
+ExecStart=/usr/local/bin/krunner-watch
+Restart=always
+
+[Install]
+WantedBy=default.target
