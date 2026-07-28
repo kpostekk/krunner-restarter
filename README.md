@@ -8,7 +8,7 @@ If you start spamming, kde will raise random errors, but it's not a big deal.
 
 ## Requirements
 
- - `qdbus`
+ - `qdbus` for Qt5 or `qdbus-qt6` for Qt6
 
 ## Install 
 
