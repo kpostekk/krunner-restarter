@@ -6,7 +6,7 @@ SERVICE="plasma-krunner.service"
 # Define the error to look for
 ERROR="eglSwapBuffers"
 
-EMIT_LOGS=1
+EMIT_LOGS=0
 
 QDBUS_BINARY=""
 
