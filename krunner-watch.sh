@@ -26,7 +26,7 @@ function pick_qdbus_binary(){
 pick_qdbus_binary
 
 if [[ -z "$QDBUS_BINARY" ]]; then
-    echo "Failed to find qdbus binary"
+    echo "Failed to find functional qdbus installation. Check if required packages are installed."
     exit 1
 fi
 
